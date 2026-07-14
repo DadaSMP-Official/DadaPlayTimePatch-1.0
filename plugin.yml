@@ -1,0 +1,10 @@
+name: DadaPlayTimePatch
+version: 1.0.0
+main: it.dadasmp.playtimepatch.DadaPlayTimePatchPlugin
+api-version: "1.20"
+author: DadaSMP
+description: Patch integrata per /playtime reset.
+depend: [DadaPlayTime]
+permissions:
+  dadaplaytime.admin:
+    default: op
